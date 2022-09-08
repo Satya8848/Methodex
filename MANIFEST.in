@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include methodex_customization *.css
+recursive-include methodex_customization *.csv
+recursive-include methodex_customization *.html
+recursive-include methodex_customization *.ico
+recursive-include methodex_customization *.js
+recursive-include methodex_customization *.json
+recursive-include methodex_customization *.md
+recursive-include methodex_customization *.png
+recursive-include methodex_customization *.py
+recursive-include methodex_customization *.svg
+recursive-include methodex_customization *.txt
+recursive-exclude methodex_customization *.pyc
